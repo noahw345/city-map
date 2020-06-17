@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6dc4d24ffb1749359b343d84b6ed0187 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6dc4d24ffb1749359b343d84b6ed0187" ></div>
+        
+</body>
+<script>    
+    
+            var map_6dc4d24ffb1749359b343d84b6ed0187 = L.map(
+                "map_6dc4d24ffb1749359b343d84b6ed0187",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a77e39c290bd4a96a0f9c516a3dd8059 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6dc4d24ffb1749359b343d84b6ed0187);
+        
+    
+            var feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0 = L.featureGroup(
+                {}
+            ).addTo(map_6dc4d24ffb1749359b343d84b6ed0187);
+        
+    
+            var circle_marker_6c57f58cc7b64fb18e8823ae86a805e8 = L.circleMarker(
+                [35.685, 139.7514],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35.676, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_47b8f498f4ee4630af23e813c3c58170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b2c133d4f1949e7a8b6e28a0292fa5b = $(`<div id="html_4b2c133d4f1949e7a8b6e28a0292fa5b" style="width: 100.0%; height: 100.0%;">Tokyo   Population 35,676,000.0</div>`)[0];
+            popup_47b8f498f4ee4630af23e813c3c58170.setContent(html_4b2c133d4f1949e7a8b6e28a0292fa5b);
+        
+
+        circle_marker_6c57f58cc7b64fb18e8823ae86a805e8.bindPopup(popup_47b8f498f4ee4630af23e813c3c58170)
+        ;
+
+        
+    
+    
+            var circle_marker_fa4c2857b9e64560a796058e3773d13e = L.circleMarker(
+                [40.6943, -73.9249],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.354922, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_0885577253004f909b297150c6fbdb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85b4909a29694973bda0200d40089dd9 = $(`<div id="html_85b4909a29694973bda0200d40089dd9" style="width: 100.0%; height: 100.0%;">New York   Population 19,354,922.0</div>`)[0];
+            popup_0885577253004f909b297150c6fbdb09.setContent(html_85b4909a29694973bda0200d40089dd9);
+        
+
+        circle_marker_fa4c2857b9e64560a796058e3773d13e.bindPopup(popup_0885577253004f909b297150c6fbdb09)
+        ;
+
+        
+    
+    
+            var circle_marker_6b9d3ca591ff49c299a2b7b21e62debe = L.circleMarker(
+                [19.4424, -99.131],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.028, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_0af4455a7be042f29e0d33da008ee74f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8b123ebce1e454ebe93f3b8c46eee29 = $(`<div id="html_a8b123ebce1e454ebe93f3b8c46eee29" style="width: 100.0%; height: 100.0%;">Mexico City   Population 19,028,000.0</div>`)[0];
+            popup_0af4455a7be042f29e0d33da008ee74f.setContent(html_a8b123ebce1e454ebe93f3b8c46eee29);
+        
+
+        circle_marker_6b9d3ca591ff49c299a2b7b21e62debe.bindPopup(popup_0af4455a7be042f29e0d33da008ee74f)
+        ;
+
+        
+    
+    
+            var circle_marker_ea2d14d78a9146799fe18afe400c2053 = L.circleMarker(
+                [19.017, 72.857],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.978, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_29056bdfba1646d9862d49899b3d290e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42b6eb1e11b14d179586d43debdcf913 = $(`<div id="html_42b6eb1e11b14d179586d43debdcf913" style="width: 100.0%; height: 100.0%;">Mumbai   Population 18,978,000.0</div>`)[0];
+            popup_29056bdfba1646d9862d49899b3d290e.setContent(html_42b6eb1e11b14d179586d43debdcf913);
+        
+
+        circle_marker_ea2d14d78a9146799fe18afe400c2053.bindPopup(popup_29056bdfba1646d9862d49899b3d290e)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf067036a3e4ba89e832f629f4c19c3 = L.circleMarker(
+                [-23.5587, -46.625],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.845, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_2d026a9dba4e478992a300122f00ca36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95d2f62a27144cefae6494b56412782c = $(`<div id="html_95d2f62a27144cefae6494b56412782c" style="width: 100.0%; height: 100.0%;">São Paulo   Population 18,845,000.0</div>`)[0];
+            popup_2d026a9dba4e478992a300122f00ca36.setContent(html_95d2f62a27144cefae6494b56412782c);
+        
+
+        circle_marker_4bf067036a3e4ba89e832f629f4c19c3.bindPopup(popup_2d026a9dba4e478992a300122f00ca36)
+        ;
+
+        
+    
+    
+            var circle_marker_9c492dbee64c428e8759b604ed0a5d71 = L.circleMarker(
+                [28.67, 77.23],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.926, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_f2a3f0d04d654232bd7d5675267be9e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c156d5a5234f4cbaaed770a505dc3cd7 = $(`<div id="html_c156d5a5234f4cbaaed770a505dc3cd7" style="width: 100.0%; height: 100.0%;">Delhi   Population 15,926,000.0</div>`)[0];
+            popup_f2a3f0d04d654232bd7d5675267be9e1.setContent(html_c156d5a5234f4cbaaed770a505dc3cd7);
+        
+
+        circle_marker_9c492dbee64c428e8759b604ed0a5d71.bindPopup(popup_f2a3f0d04d654232bd7d5675267be9e1)
+        ;
+
+        
+    
+    
+            var circle_marker_9c2cd77a2bd54cf0baf03a9ce91b5225 = L.circleMarker(
+                [31.2165, 121.4365],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.987, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_d64b6bbd315b435586ae2c096ab7bafc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14b1717610994531b7351ed63ece990a = $(`<div id="html_14b1717610994531b7351ed63ece990a" style="width: 100.0%; height: 100.0%;">Shanghai   Population 14,987,000.0</div>`)[0];
+            popup_d64b6bbd315b435586ae2c096ab7bafc.setContent(html_14b1717610994531b7351ed63ece990a);
+        
+
+        circle_marker_9c2cd77a2bd54cf0baf03a9ce91b5225.bindPopup(popup_d64b6bbd315b435586ae2c096ab7bafc)
+        ;
+
+        
+    
+    
+            var circle_marker_1b44b9c5782c4a29991078796cd2b43e = L.circleMarker(
+                [22.495, 88.3247],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.787, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_7b6d808a46054491b77cd1f547c777cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d98c693c29624597a50155150af71b0b = $(`<div id="html_d98c693c29624597a50155150af71b0b" style="width: 100.0%; height: 100.0%;">Kolkata   Population 14,787,000.0</div>`)[0];
+            popup_7b6d808a46054491b77cd1f547c777cd.setContent(html_d98c693c29624597a50155150af71b0b);
+        
+
+        circle_marker_1b44b9c5782c4a29991078796cd2b43e.bindPopup(popup_7b6d808a46054491b77cd1f547c777cd)
+        ;
+
+        
+    
+    
+            var circle_marker_ff1b80da03c5459ab765631d92131be6 = L.circleMarker(
+                [34.1139, -118.4068],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.815475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_2c14fc0f87394076b0083445252446cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4ea6b9341a4cf4b1666ded8ed6de36 = $(`<div id="html_0c4ea6b9341a4cf4b1666ded8ed6de36" style="width: 100.0%; height: 100.0%;">Los Angeles   Population 12,815,475.0</div>`)[0];
+            popup_2c14fc0f87394076b0083445252446cc.setContent(html_0c4ea6b9341a4cf4b1666ded8ed6de36);
+        
+
+        circle_marker_ff1b80da03c5459ab765631d92131be6.bindPopup(popup_2c14fc0f87394076b0083445252446cc)
+        ;
+
+        
+    
+    
+            var circle_marker_79e1c62bdbab4ab1a1ed1a9882ff9e4a = L.circleMarker(
+                [23.7231, 90.4086],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.797394, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_42d3068c03a84d4388b96ab6fe880ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7902bddd2b90445db25ad53c8003973e = $(`<div id="html_7902bddd2b90445db25ad53c8003973e" style="width: 100.0%; height: 100.0%;">Dhaka   Population 12,797,394.0</div>`)[0];
+            popup_42d3068c03a84d4388b96ab6fe880ae1.setContent(html_7902bddd2b90445db25ad53c8003973e);
+        
+
+        circle_marker_79e1c62bdbab4ab1a1ed1a9882ff9e4a.bindPopup(popup_42d3068c03a84d4388b96ab6fe880ae1)
+        ;
+
+        
+    
+    
+            var circle_marker_08f5fddaf1804a6d82a017ad8248f976 = L.circleMarker(
+                [-34.6025, -58.3975],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.795, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_c981376053cf488084f5d77c99add6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe9faea6e0b454eba795b6285eb8a85 = $(`<div id="html_bfe9faea6e0b454eba795b6285eb8a85" style="width: 100.0%; height: 100.0%;">Buenos Aires   Population 12,795,000.0</div>`)[0];
+            popup_c981376053cf488084f5d77c99add6a8.setContent(html_bfe9faea6e0b454eba795b6285eb8a85);
+        
+
+        circle_marker_08f5fddaf1804a6d82a017ad8248f976.bindPopup(popup_c981376053cf488084f5d77c99add6a8)
+        ;
+
+        
+    
+    
+            var circle_marker_0af6aa78ce6e4a10b5abe50f4eacc9a5 = L.circleMarker(
+                [24.87, 66.99],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.13, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_47b40a14964e4560b2fc0eb0bb2b01bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93bda4e743d14122bf457655dfbba822 = $(`<div id="html_93bda4e743d14122bf457655dfbba822" style="width: 100.0%; height: 100.0%;">Karachi   Population 12,130,000.0</div>`)[0];
+            popup_47b40a14964e4560b2fc0eb0bb2b01bc.setContent(html_93bda4e743d14122bf457655dfbba822);
+        
+
+        circle_marker_0af6aa78ce6e4a10b5abe50f4eacc9a5.bindPopup(popup_47b40a14964e4560b2fc0eb0bb2b01bc)
+        ;
+
+        
+    
+    
+            var circle_marker_68d99e618f6e42c087f530e9a9f4b195 = L.circleMarker(
+                [30.05, 31.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.893, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_9fe65fb710c2449f97c34b1320d07aee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_097e1b621f6f462f9aecb11fa791d868 = $(`<div id="html_097e1b621f6f462f9aecb11fa791d868" style="width: 100.0%; height: 100.0%;">Cairo   Population 11,893,000.0</div>`)[0];
+            popup_9fe65fb710c2449f97c34b1320d07aee.setContent(html_097e1b621f6f462f9aecb11fa791d868);
+        
+
+        circle_marker_68d99e618f6e42c087f530e9a9f4b195.bindPopup(popup_9fe65fb710c2449f97c34b1320d07aee)
+        ;
+
+        
+    
+    
+            var circle_marker_28620bafb1ba41eb9bb94b71af2a9942 = L.circleMarker(
+                [-22.925, -43.225],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.748, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_9778c06d27794c3cb8c93d750306298c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77272ad99b9240668e696a7bab6e7b60 = $(`<div id="html_77272ad99b9240668e696a7bab6e7b60" style="width: 100.0%; height: 100.0%;">Rio de Janeiro   Population 11,748,000.0</div>`)[0];
+            popup_9778c06d27794c3cb8c93d750306298c.setContent(html_77272ad99b9240668e696a7bab6e7b60);
+        
+
+        circle_marker_28620bafb1ba41eb9bb94b71af2a9942.bindPopup(popup_9778c06d27794c3cb8c93d750306298c)
+        ;
+
+        
+    
+    
+            var circle_marker_25681510f7484e58a5fc974bf9181d88 = L.circleMarker(
+                [34.75, 135.4601],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.294, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_4716018f8ed1415096a251636f77ecda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1b2ce3ea0a484ab74d90d3eeab5516 = $(`<div id="html_2c1b2ce3ea0a484ab74d90d3eeab5516" style="width: 100.0%; height: 100.0%;">Ōsaka   Population 11,294,000.0</div>`)[0];
+            popup_4716018f8ed1415096a251636f77ecda.setContent(html_2c1b2ce3ea0a484ab74d90d3eeab5516);
+        
+
+        circle_marker_25681510f7484e58a5fc974bf9181d88.bindPopup(popup_4716018f8ed1415096a251636f77ecda)
+        ;
+
+        
+    
+    
+            var circle_marker_650504a66ea84de4bcc344b13191927b = L.circleMarker(
+                [39.9289, 116.3883],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.106, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_677f952eebc54e22ba553a236ea619a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ecfba7a2e99414cb278e3b986aa2aea = $(`<div id="html_5ecfba7a2e99414cb278e3b986aa2aea" style="width: 100.0%; height: 100.0%;">Beijing   Population 11,106,000.0</div>`)[0];
+            popup_677f952eebc54e22ba553a236ea619a9.setContent(html_5ecfba7a2e99414cb278e3b986aa2aea);
+        
+
+        circle_marker_650504a66ea84de4bcc344b13191927b.bindPopup(popup_677f952eebc54e22ba553a236ea619a9)
+        ;
+
+        
+    
+    
+            var circle_marker_7f6c89c3b568459cb3053997f8d4cb2b = L.circleMarker(
+                [14.6042, 120.9822],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.1, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_1d6ac447d7ab4400805246acf02374ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c270f0bbc3494587b2d5e91c2962df24 = $(`<div id="html_c270f0bbc3494587b2d5e91c2962df24" style="width: 100.0%; height: 100.0%;">Manila   Population 11,100,000.0</div>`)[0];
+            popup_1d6ac447d7ab4400805246acf02374ee.setContent(html_c270f0bbc3494587b2d5e91c2962df24);
+        
+
+        circle_marker_7f6c89c3b568459cb3053997f8d4cb2b.bindPopup(popup_1d6ac447d7ab4400805246acf02374ee)
+        ;
+
+        
+    
+    
+            var circle_marker_20cb79166c684adaa8dbcd77ac6ac856 = L.circleMarker(
+                [55.7522, 37.6155],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.452, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_201b721f1b3647b187fcb774f6c646d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3918cb313fbf430dba35208fdbed4b82 = $(`<div id="html_3918cb313fbf430dba35208fdbed4b82" style="width: 100.0%; height: 100.0%;">Moscow   Population 10,452,000.0</div>`)[0];
+            popup_201b721f1b3647b187fcb774f6c646d1.setContent(html_3918cb313fbf430dba35208fdbed4b82);
+        
+
+        circle_marker_20cb79166c684adaa8dbcd77ac6ac856.bindPopup(popup_201b721f1b3647b187fcb774f6c646d1)
+        ;
+
+        
+    
+    
+            var circle_marker_282f46cae5e047ecb7ba4548b69ed5b1 = L.circleMarker(
+                [41.105, 29.01],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": "0.7", "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.061, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1a7d053a15bf43a6a39cdcd508cc8ca0);
+        
+    
+        var popup_2a4ad135fbee4301ab053aedc942c0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ca3925bd294f628c7e28414ac2b3d4 = $(`<div id="html_96ca3925bd294f628c7e28414ac2b3d4" style="width: 100.0%; height: 100.0%;">Istanbul   Population 10,061,000.0</div>`)[0];
+            popup_2a4ad135fbee4301ab053aedc942c0b9.setContent(html_96ca3925bd294f628c7e28414ac2b3d4);
+        
+
+        circle_marker_282f46cae5e047ecb7ba4548b69ed5b1.bindPopup(popup_2a4ad135fbee4301ab053aedc942c0b9)
+        ;
+
+        
+    
+</script>
